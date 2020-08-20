@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+.list {
+  font-family:'VT323';
+  ::selection {
+    background: #0f0;
+    color: #fff;
+  }
+    text-align: left;
+    font-size: 1.5rem;
+    color: #0f0;
+    text-shadow: 1px 1px 0 #0f09;
+    margin-bottom: 10px;
+    .col-4 {
+        cursor: pointer;
+    }
+}

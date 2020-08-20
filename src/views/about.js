@@ -1,10 +1,8 @@
 import React from 'react'
-
+import Deer from '../components/bg/deer'
 function about() {
     return(
-        <div>
-            <h1>hi this is about</h1>
-        </div>
+        <Deer/>
     )
 }
 

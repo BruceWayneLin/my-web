@@ -1,0 +1,15 @@
+nav {
+    @include flexBox(row);
+    @include flexAlign(center, space-between);
+    font-family: fontCom;
+    list-style-type: none;
+    padding: 30px 10%;
+    color: white;
+    background: black;
+    ul {
+        li {
+            color: white;
+            list-style-type: none;
+        }
+    }
+}

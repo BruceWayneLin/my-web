@@ -1,8 +1,10 @@
 import React from 'react'
+import Solar from '../components/bg/solar'
+
 function home() {
     return(
-        <div>
-            <h1>hi this is home</h1>
+        <div className="home">
+            <Solar />
         </div>
     )
 }
