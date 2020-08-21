@@ -6,21 +6,23 @@ class Galaxy extends Component {
         return(       
             <div id="Galaxy">
             <div className="about">
-               <a className="bg_links social portfolio" href="https://www.jungwei.com.tw" target="_blank">
+               <div className="bg_links social portfolio">
+                    <Link to="/contact">
                     <FontAwesomeIcon icon="chevron-circle-right"/>
-               </a>
+                    </Link>
+               </div>
                <a className="bg_links social dribbble" href="https://www.jungwei.com.tw" target="_blank">
                   <span className="icon">
                     <FontAwesomeIcon icon="people-arrows"/>
                   </span>
                </a>
-               <a className="bg_links social linkedin" href="https://www.jungwei.com.tw" target="_blank">
+               <div className="bg_links social linkedin" >
                     <Link to="/about">
                     <span className="icon">
                     <FontAwesomeIcon icon="chevron-circle-left"/>
                     </span>
                     </Link>
-               </a>
+               </div>
                <a className="bg_links logo">
                 <FontAwesomeIcon icon="info-circle"/>
                </a>

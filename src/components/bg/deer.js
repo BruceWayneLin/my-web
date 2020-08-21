@@ -33,7 +33,7 @@ class Deer extends Component {
                     <div className="description">
                     <ul>
                         <li>Degree: </li>
-                        <li className="pl-5">University of Oregon in States</li> 
+                        <li className="pl-5">University of Oregon in U.S.A.</li> 
                         <li>Fd skills: </li> 
                         <li className="pl-5">React.js, Vue3.js, Angular6.js, firebase</li> 
                         <li>Bd skills: </li> 

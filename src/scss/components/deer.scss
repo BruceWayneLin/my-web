@@ -64,21 +64,18 @@
               transition: all 0.8s ease;
      
               .icon {
-                 background-image: url(https://rafaelalucas91.github.io/assets/codepen/link.svg);
               }
            }
      
            &.dribbble {
               transition: all 0.3s ease;
               .icon {
-                 background-image: url(https://rafaelalucas91.github.io/assets/codepen/dribbble.svg);
               }
            }
      
            &.linkedin {
               transition: all 0.8s ease;
               .icon {
-                 background-image: url(https://rafaelalucas91.github.io/assets/codepen/linkedin.svg);
               }
            }
         }
@@ -114,7 +111,7 @@
                  transition: all 0.3s 0s $cubic;
                  .icon {
                     &:hover {
-                       background-color: #698fb7;
+                    //    background-color: #698fb7;
                     }
                  }
               }
@@ -125,7 +122,7 @@
                  transition: all 0.3s 0.15s $cubic;
                  .icon {
                     &:hover {
-                       background-color: #ea4c89;
+                    //    background-color: #ea4c89;
                     }
                  }
               }
@@ -136,7 +133,7 @@
                  transition: all 0.3s 0.25s $cubic;
                  .icon {
                     &:hover {
-                       background-color: #0077b5;
+                    //    background-color: #0077b5;
                     }
                  }
               }
@@ -204,6 +201,11 @@
 
     .brand-logo{
         .description {
+            ul {
+                li {
+                    margin-bottom: 10px;
+                }
+            }
             width: 50%;
             background: #00000075;
             @include customMax(500px) {

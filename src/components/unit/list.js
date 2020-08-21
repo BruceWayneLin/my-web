@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import about from '../../views/about';
 
 class List extends Component {
     componentDidMount() {

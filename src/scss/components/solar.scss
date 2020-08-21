@@ -14,9 +14,8 @@
   .chevron-circle-right {
     cursor:pointer;
   }
-}
 
-$year-in-second : 30; // 1 Earth year = 30 sec
+  $year-in-second : 30; // 1 Earth year = 30 sec
 
 @function revolution($pl-year-in-days){
   @return $pl-year-in-days * $year-in-second / 365.2563 + s  //Earth reference
@@ -119,7 +118,7 @@ hr{
 }
 
 code{
-  color: #ae94c0;
+  // color: #ae94c0;
   font-family:Menlo, Monaco, Consolas, 'Courier New', monospace;
   font-size:.9em;
 }
@@ -233,6 +232,7 @@ code{
   }
 }
 .mars{
+  cursor: pointer;
   height: $mars-orb;
   width: $mars-orb;
   margin-top: -$mars-orb / 2;
@@ -374,3 +374,5 @@ code{
     transform:rotate(-360deg)
   }
 }
+}
+

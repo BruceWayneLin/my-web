@@ -77,14 +77,12 @@
            &.dribbble {
               transition: all 0.3s ease;
               .icon {
-                 background-image: url(https://rafaelalucas91.github.io/assets/codepen/dribbble.svg);
               }
            }
      
            &.linkedin {
               transition: all 0.8s ease;
               .icon {
-                 background-image: url(https://rafaelalucas91.github.io/assets/codepen/linkedin.svg);
               }
            }
         }
@@ -343,7 +341,7 @@
         }
      
         p {
-           color: $m-04;
+        //    color: $m-04;
            font-size: 14px;
            z-index: 2;
            position: absolute;
@@ -357,29 +355,29 @@
               0% {
                  transform: translateX(-30px);
                  letter-spacing: 0px;
-                 color: $m-04;
+                //  color: $m-04;
               }
      
               25% {
                  letter-spacing: 3px;
-                 color: $m-03;
+                //  color: $m-03;
               }
      
               50% {
                  transform: translateX(30px);
                  letter-spacing: 0px;
-                 color: $m-04;
+                //  color: $m-04;
               }
      
               75% {
                  letter-spacing: 3px;
-                 color: $m-03;
+                //  color: $m-03;
               }
      
               100% {
                  transform: translateX(-30px);
                  letter-spacing: 0px;
-                 color: $m-04;
+                //  color: $m-04;
               }
            }
         }
